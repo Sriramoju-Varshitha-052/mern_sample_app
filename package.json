@@ -1,0 +1,29 @@
+{
+  "name": "mern_sample_app",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "homepage": "https://github.com/Sriramoju-Varshitha-052/mern_sample_app#readme",
+  "bugs": {
+    "url": "https://github.com/Sriramoju-Varshitha-052/mern_sample_app/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sriramoju-Varshitha-052/mern_sample_app.git"
+  },
+  "license": "ISC",
+  "author": "varshitha",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongodb": "^7.6.0",
+    "mongoose": "^9.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
