@@ -6,6 +6,12 @@ router.get("/employees",async (req, res) => {
   res.send(result);
 });
 
+router.delete("/deleteemp/:id",async (req, res) => {
+  let result=await users.findByIdAndDelete(req.params.id);
+  if(result){
+  res.send("emp record deleted sucess");
+  }
+});
 router.post("/assign-task", (req, res) => {
   res.send("Task assigned");
 });
